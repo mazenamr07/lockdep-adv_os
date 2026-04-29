@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 4.0)
-project(Code)
+project(C_Code C)
 
-set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_C_STANDARD 11)
 
-add_executable(Code main.cpp)
+add_executable(C_Code main.c)
